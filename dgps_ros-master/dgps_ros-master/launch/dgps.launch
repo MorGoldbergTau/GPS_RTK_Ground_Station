@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="dgps_ros" type="dgps_ros_node" name="dgps" output="screen">
+   	 <param name="serialPort" value="/dev/ttyS1"/>
+ 	<param name="server"  value="164.90.243.252"/>
+ 	<param name="password"  value="944nbn"/> 
+        <param name="Username"  value="u59639"/>
+        
+        
+    </node>
+</launch>
